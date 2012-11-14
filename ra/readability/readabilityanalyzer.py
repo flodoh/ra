@@ -15,7 +15,7 @@ from presentation.frychart import *
 from presentation.heatmap import *
 from database.db import *
 #from input.input import *
-
+#test neuer branch
 class ReadabilityAnalyzer(object):
     '''
     ##Testzeile fuer commit
