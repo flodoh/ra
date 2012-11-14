@@ -16,6 +16,7 @@ from presentation.heatmap import *
 from database.db import *
 #from input.input import *
 #test neuer branch
+#test von flo
 class ReadabilityAnalyzer(object):
     '''
     ##Testzeile fuer commit
