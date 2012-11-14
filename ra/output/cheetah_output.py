@@ -48,7 +48,9 @@ def save_report(content, name):
 
 def open_report(path):
     path = os.path.abspath(path)
-    os.startfile(path)
+    
+    #oeffnet direkt den Browser. Funktioniert aber nur bei Windows
+    #os.startfile(path)
     
 def create_report(dict):
     new_report = substitute(dict)
