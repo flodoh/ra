@@ -18,7 +18,7 @@ from database.db import *
 
 class ReadabilityAnalyzer(object):
     '''
-    ##
+    ##Testzeile fuer commit
     classdocs
     '''
     measures = []
@@ -29,6 +29,7 @@ class ReadabilityAnalyzer(object):
         '''
         Constructor
         '''
+        ##
         #measure available
         self.measures = ["ARI",
                          "Flesch Reading Ease",
