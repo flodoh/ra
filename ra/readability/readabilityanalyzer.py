@@ -18,6 +18,7 @@ from database.db import *
 
 class ReadabilityAnalyzer(object):
     '''
+    ##
     classdocs
     '''
     measures = []
