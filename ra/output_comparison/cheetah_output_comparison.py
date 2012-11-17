@@ -75,7 +75,9 @@ def save_report(content, name):
 
 def open_report(path):
     path = os.path.abspath(path)
-    os.startfile(path)
+    
+    #command oeffnet am Ende direkt die html im Browser. Methode ist nur mit Windows kompatibel.
+    #os.startfile(path)
 
 def name_gen(size=6, chars=string.ascii_uppercase + string.digits):
     return ''.join(random.choice(chars) for x in range(size))
