@@ -15,6 +15,7 @@ from presentation.frychart import *
 from presentation.heatmap import *
 from database.db import *
 #from input.input import *
+#test vom 17.11.12
 #test neuer branch
 #test von flo
 class ReadabilityAnalyzer(object):
