@@ -3,6 +3,7 @@ Created on 20.12.2011
 
 @author: Marcus Voss
 '''
+#test von mir
 from nltk_contrib.readabilitytests import *
 from nltk_contrib.textanalyzer import *
 from nltk.probability import FreqDist
