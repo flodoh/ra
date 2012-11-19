@@ -229,6 +229,7 @@ class ReadabilityAnalyzer(object):
 #Function to work with readabilityanalyzer:       
 if __name__ == "__main__":
     ra = ReadabilityAnalyzer()
+    
     #Different lists with keys from the DB to call reports with
     #List of privacy policies by google over the past 12 years
     google_list = ['Google_2012-03-01', 'Google_2011-10-20', 'Google_2010-10-03', 'Google_2009-03-11', 'Google_2009-01-27', 'Google_2008-08-07', 'Google_2005-10-14', 'Google_2004-07-01', 'Google_2000-08-14']

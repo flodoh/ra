@@ -2,6 +2,8 @@
 '''
 Created on 04.12.2011
 @author: Eric
+@funktion: Dies ist die alte Klasse für die CRUD-Operationen an der Datenbank.
+Ersetzt wird dieses durch die Verwendung der sqlobject-Library
 '''
 
 import sqlite3

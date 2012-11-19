@@ -3,7 +3,7 @@
 import Tkinter as tk
 import tkMessageBox
 
-import readability.readabilityanalyzer
+from readability.readabilityanalyzer import *
 from tkFileDialog import *
 
 name = ""
@@ -46,10 +46,10 @@ def finish_input(name, url, text):
         tkMessageBox.showwarning("Input Error", "Name or text of the Policy is empty.")
 
 
-#if __name__ == "__main__":
+if __name__ == "__main__":
  
-save = -1
-# Create window 
+ save = -1
+ # Create window 
 inp_wind = tk.Tk()
 
 pol_space1 = tk.Label(inp_wind, text="")
