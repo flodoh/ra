@@ -3,7 +3,7 @@ Created on 19.11.2012
 
 @author: florian
 @funktion: Diese Klasse ermoeglicht ein Unit-Testing einzelner Funktionen. Als Interpreter sollte der python unit-test-Interpreter eingesetzt werden. 
-Jeder Test muss mit "_test" beginnen, damit der Interpreter ihn erkennt
+Jeder Test muss mit "test_" beginnen, damit der Interpreter ihn erkennt
 '''
 import unittest
 from model.policy import policy
