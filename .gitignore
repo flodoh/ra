@@ -1,3 +1,5 @@
 ra/output/*
 ra/output_comparison/*
 *.pyc
+ra/.settings/*
+ra/.DS_Store
