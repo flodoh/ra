@@ -3,4 +3,4 @@ ra/output_comparison/*
 *.pyc
 ra/.settings/*
 ra/.DS_Store
-ra/*/*.pyc
+ra/nltk_contrib/*.pyc
