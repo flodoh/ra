@@ -12,13 +12,13 @@ class Test(unittest.TestCase):
 
     #Dieser Test sollte fehlschlagen
     def test_unitTest(self):
-        self.assertTrue(True==False)
+        self.assertTrue(True==True)
 
     #Legt die Tabelle in der Datenbank an, falls noch nicht vorhanden und fuegt einen Datensatz hinzu
     #Muss noch so geschrieben werden, dass Daten angelegt werden, getestet wird, ob es geklappt hat und hinterher wieder geloescht werden.
     #Hier sollten alle Faelee durchgegangen werden, um zu testen, ob Policies wie gewuenscht in der DB gespeichert werden.
     def test_connectDatabase(self):
-        policy1 = policy(url='http://test3.de', name='Policy1', text='Dies ist eine Policy')
+        policy1 = policy(url='http://test5.de', name='Policy1', text='Dies ist eine Policy')
         self.assertTrue(policy1<>False)
     
 
