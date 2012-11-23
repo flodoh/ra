@@ -2,7 +2,7 @@
 Created on 19.11.2012
 
 @author: florian
-@funktion: Dies ist der main-controller, welcher alle wichtigen Funktionen beinhaltet
+@funktion: Dies ist der main-controller, der alle wichtigen Funktionen beinhaltet
 '''
 
 from model.policy import policy
@@ -26,8 +26,8 @@ def main():
                     break
                 x = int(input)     
                 print x
-            except ValueError:
-                print "Oops!  That was no valid number.  Try again..."
+            except ValueError as e:
+                print "Oops!  That was no valid number.  Try again...", e
 
 if __name__ == '__main__':
         main()  
